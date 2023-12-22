@@ -1,0 +1,472 @@
+@charset "UTF-8";
+
+/* SUB SETTING */
+#sub_sc {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 30px 0;
+}
+
+#sub_sc .sub_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#sub_sc .sub_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* SUB SETTING END */
+
+/* SUB DEPS */
+#sub_sc .sub_con .deps_tab {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#sub_sc .sub_con .deps_tab .deps_tabbox {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 3px solid #000;
+}
+
+#sub_sc .sub_con .deps_tab .deps_tabbox .tab_item {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#sub_sc .sub_con .deps_tab .deps_tabbox .tab_item::after {
+    content: '';
+    width: 1px;
+    height: 26px;
+    background-color: #898989;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+}
+
+#sub_sc .sub_con .deps_tab .deps_tabbox .tab_item:last-of-type:after {
+    content: none;
+}
+
+#sub_sc .sub_con .deps_tab .deps_tabbox .tab_item > a {
+    font-family: 'SEBANGGothic', sans-serif;
+    display: block;
+    padding: 13px 0;
+    text-align: center;
+    font-size: 1.1875rem;
+    font-weight: 700;
+    position: relative;
+}
+
+/* SUB DEPS END */
+
+/* SUB CONT */
+.info_cont {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.info_cont .info_item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 30px 0 35px;
+    border-bottom: 1px solid #6b6868;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 17px;
+}
+
+.info_cont .info_item:last-of-type {
+    border-bottom: 0;
+}
+
+.info_cont .info_item .year_num {
+    font-family: 'SEBANGGothic', sans-serif;
+    width: 160px;
+    height: auto;
+    position: relative;
+    font-size: 1.5625rem;
+    font-weight: 700;
+}
+
+.info_cont .info_item .info_tit {
+    font-family: 'SEBANGGothic', sans-serif;
+    width: 160px;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -1px;
+    gap: 12px;
+    margin-bottom: 30px;
+    padding-left: 43px;
+    word-break: keep-all;
+    color: #000;
+}
+
+.info_cont .info_item .info_tit > span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url(../img/tit_arrows.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.info_cont .info_item .info_list {
+    width: -webkit-calc((100% - 17px) - 160px);
+    width: -moz-calc((100% - 17px) - 160px);
+    width: calc((100% - 17px) - 160px);
+    height: auto;
+    position: relative;
+}
+
+.info_cont .info_item .info_list > li {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.info_cont .info_item .info_list > li:last-of-type {
+    margin-bottom: 0;
+}
+
+.info_cont .info_item .info_list > li > a {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.info_cont .info_item .info_list > li > a > span.date {
+    font-family: 'TheJamsil';
+    display: inline-block;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.info_cont .info_item .info_list > li > a > span.stat {
+    font-family: 'TheJamsil';
+    display: inline-block;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    color: #333;
+    margin-top: 6px;
+}
+
+.info_cont .info_item .info_list > li > a > p {
+    font-family: 'TheJamsil';
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: #000;
+    line-height: 1.2;
+}
+
+/* SUB CONT END */
+
+/* SUB REPORT */
+.report_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.report_con .report_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.report_con .report_item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 40px 0 45px;
+    border-bottom: 1px solid #6b6868;
+}
+
+.report_con .report_item:last-of-type {
+    border-bottom: 0;
+}
+
+.report_con .report_item .report_tit {
+    font-family: 'SEBANGGothic', sans-serif;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-left: 44px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.report_con .report_item .report_tit > span {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url(../img/tit_arrows.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.report_con .report_item .report_cont {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.report_con .report_item .report_cont .report_txt {
+    width: -webkit-calc((100% - 20px) - 306px);
+    width: -moz-calc((100% - 20px) - 306px);
+    width: calc((100% - 20px) - 306px);
+    height: auto;
+    position: relative;
+    padding-left: 44px;
+}
+
+.report_con .report_item .report_cont .report_txt::after {
+    content: '';
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: -3px;
+    left: 1px;
+    background-image: url(../img/report_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.report_con .report_item .report_cont .report_txt > a {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.report_con .report_item .report_cont .report_txt > a > p {
+    font-family: 'SEBANGGothic', sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.report_con .report_item .report_cont .report_txt > a > span {
+    font-size: 0.6875rem;
+    font-weight: 400;
+    color: #b5b5b6;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    display: block;
+}
+
+.report_con .report_item .report_cont .report_txt .deps_report {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.report_con .report_item .report_cont .report_txt .deps_report > li {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-left: 10px;
+}
+
+.report_con .report_item .report_cont .report_txt .deps_report > li:last-of-type {
+    margin-bottom: 0;
+}
+
+.report_con .report_item .report_cont .report_txt .deps_report > li > p {
+    font-family: 'TheJamsil';
+    font-size: 0.8125rem;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #3e3a39;
+}
+
+.report_con .report_item .report_cont .report_txt .deps_report > li > p::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    background-color: #898989;
+    border-radius: 5rem;
+}
+
+.report_con .report_item .report_cont .report_txt .deps_report > li .deps2_ul {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.report_con .report_item .report_cont .report_txt .deps_report > li .deps2_ul > li {
+    font-family: 'TheJamsil';
+    font-size: 0.8125rem;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #3e3a39;
+    text-align: justify;
+}
+
+.report_con .report_item .report_cont .report_txt .report_down {
+    display: inline-block;
+    width: auto;
+    height: 32px;
+    position: relative;
+}
+
+.report_con .report_item .report_cont .report_txt .report_down > a {
+    font-family: 'TheJamsil';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #9fa0a0;
+    text-align: center;
+    line-height: 32px;
+    font-size: 0.8125rem;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 15px 0 38px;
+    border-radius: 5rem;
+}
+
+.report_con .report_item .report_cont .report_txt .report_down > a::after {
+    content: '';
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    background-image: url(../img/pdf_down.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    top: 0;
+    left: 0;
+}
+
+.report_con .report_item .report_cont .report_thumb {
+    width: 306px;
+    height: 212px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.report_con .report_item .report_cont .report_thumb.report_thumb_01 {
+    background-image: url(../img/report_img_01.png);
+}
+
+.report_con .report_item .report_cont .report_thumb.report_thumb_02 {
+    background-image: url(../img/report_img_02.png);
+}
+
+.report_con .report_item .report_cont .report_thumb.report_thumb_03 {
+    background-image: url(../img/report_img_03.png);
+}
+
+.report_more {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 38px;
+}
+
+.report_more > a {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 0;
+}
+
+/* SUB REPORT END */

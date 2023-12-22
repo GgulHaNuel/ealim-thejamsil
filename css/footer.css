@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+/* FOOTER SETTING */
+#new_ft {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* FOOTER SETTING END */
+
+/* FOOTER TOP */
+.ft_top {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 18px 0;
+    background-color: #c9c9ca;
+}
+
+.ft_top .ft_topbox {
+    width: 100%;
+    max-width: 654px;
+    position: relative;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.ft_top .ft_picture {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    background-image: url(../img/ft_pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.ft_top .ft_list {
+    width: -webkit-calc((100% - 25px) - 75px);
+    width: -moz-calc((100% - 25px) - 75px);
+    width: calc((100% - 25px) - 75px);
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 17px 37px;
+}
+
+.ft_top .ft_list > li {
+    width: -webkit-calc((100% - 74px) / 3);
+    width: -moz-calc((100% - 74px) / 3);
+    width: calc((100% - 74px) / 3);
+    height: auto;
+    position: relative;
+}
+
+.ft_top .ft_list > li > a {
+    font-family: 'SEBANGGothic', sans-serif;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #000;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: #000;
+    gap: 8px;
+}
+
+.ft_top .ft_list > li > a > span {
+    display: block;
+    width: 19px;
+    height: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.ft_top .ft_list > li.ft_item_01 > a > span {
+    background-image: url(../img/ft_icon_01.png);
+}
+
+.ft_top .ft_list > li.ft_item_02 > a > span {
+    background-image: url(../img/ft_icon_02.png);
+}
+
+.ft_top .ft_list > li.ft_item_03 > a > span {
+    background-image: url(../img/ft_icon_03.png);
+}
+
+.ft_top .ft_list > li.ft_item_04 > a > span {
+    background-image: url(../img/ft_icon_04.png);
+}
+
+.ft_top .ft_list > li.ft_item_05 > a > span {
+    background-image: url(../img/ft_icon_05.png);
+}
+
+.ft_top .ft_list > li.ft_item_06 > a > span {
+    background-image: url(../img/ft_icon_06.png);
+}
+
+/* FOOTER TOP END */
+
+/* FOOTER TXT */
+.ft_txtbox {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #4f4f4f;
+    padding: 20px 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ft_txtbox .ft_logo {
+    width: 120px;
+    height: 40px;
+    position: relative;
+    background-image: url(../img/ft_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.ft_txtbox .ft_txt {
+    font-size: 0.75rem;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: -0.5px;
+    line-height: 1.6;
+}
+
+.ft_txtbox .ft_txt > a {
+    font-size: 0.75rem;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: -0.5px;
+}
+
+/* FOOTER TXT END */

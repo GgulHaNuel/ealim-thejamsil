@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/* HEADER SETTING */
+#new_hd {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 34px 30px 0;
+}
+
+#new_hd .hd_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_hd .hd_area .hd_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/* HEADER SETTING END */
+
+/* HEADER LOGO */
+.hd_nav {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.hd_nav .hd_logo {
+    width: 130px;
+    height: 35px;
+    position: relative;
+}
+
+.hd_nav .hd_logo > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.hd_nav .nav_main {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.hd_nav .nav_main .nav_mainbox {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hd_nav .nav_main .nav_mainbox > li {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.hd_nav .nav_main .nav_mainbox > li > a {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: #000;
+    letter-spacing: -0.5px;
+}
+
+.hd_volnum {
+    width: auto;
+    height: auto;
+    position: relative;
+    text-align: right;
+}
+
+.hd_volnum > h2 {
+    font-family: 'SEBANGGothic', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+    line-height: 0.9;
+    margin-bottom: 4px;
+}
+
+.hd_volnum > h2 > span {
+    font-family: 'SEBANGGothic', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.hd_volnum > p {
+    font-family: 'SEBANGGothic', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #898989;
+}
+
+/* HEADER LOGO END */
